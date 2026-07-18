@@ -12,14 +12,14 @@ publish = false
 workspace = true
 
 [dependencies]
-mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "781d3fcceba82acfe6b0eb46650513bd78a2416b" }
-mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "580b64316774e22f0b7d5d495ca1d9b9d6536a60" }
-mycelium-std-content = { git = "https://github.com/tzervas/mycelium-std-content", rev = "792eb7fe476ebf50bae1d8a20e3a7fba83a16d8b" }
-mycelium-std-vsa = { git = "https://github.com/tzervas/mycelium-std-vsa", rev = "514798245c507d515c3a53ea1ec4152b409e821d" }
-mycelium-std-numerics = { git = "https://github.com/tzervas/mycelium-std-numerics", rev = "cdfb2cdef08818091d47ec99f592947c1ccc4085" }
-mycelium-spore = { git = "https://github.com/tzervas/mycelium-spore", rev = "12f117d395545ee89ba144eb858de11f0b36ab16" }
-mycelium-proj = { git = "https://github.com/tzervas/mycelium-proj", rev = "cfc934b32c0b7b57becbb7ddfe3c516712c6ec0e" }
-mycelium-vsa = { git = "https://github.com/tzervas/mycelium-value", rev = "fce92daed05e9f10202c202648ec43fb0a6991d7" }
+mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "46d2515cbd86d2ae4d1365f4adcd2796737e9f0b" }
+mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "376762cc17853e1582684ececf9e760426bcfb0c" }
+mycelium-std-content = { git = "https://github.com/tzervas/mycelium-std-content", rev = "a6059bae85256fed1272f38a8cbbd2dec2e8c56c" }
+mycelium-std-vsa = { git = "https://github.com/tzervas/mycelium-std-vsa", rev = "3936b492b99ba204e9c156822f70041383a37056" }
+mycelium-std-numerics = { git = "https://github.com/tzervas/mycelium-std-numerics", rev = "2676276b1559f0c1c0b1c0c39ad48ba6ff89d639" }
+mycelium-spore = { git = "https://github.com/tzervas/mycelium-spore", rev = "283f9fd901607841d5302d5935d15d873a32eef7" }
+mycelium-proj = { git = "https://github.com/tzervas/mycelium-proj", rev = "20b8a6d264ac728e81cfe8cd90cec8d2a91370be" }
+mycelium-vsa = { git = "https://github.com/tzervas/mycelium-value", rev = "6d230ad2023a716704c697ac6812a2062624b4eb" }
 # blake3 is already a vetted workspace dependency (mycelium-core, mycelium-spore)
 blake3.workspace = true
 # serde_json is used for canonical manifest hashing (ReconManifest::manifest_hash)
