@@ -13,7 +13,7 @@ workspace = true
 
 [dependencies]
 mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "3958d2ea3c3921611e33f1f00e3469b29a939a76" }
-mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "376762cc17853e1582684ececf9e760426bcfb0c" }
+mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "f530c3db59a35fbb5769356555bda09997e96a1f" }
 mycelium-std-content = { git = "https://github.com/tzervas/mycelium-std-content", rev = "a6059bae85256fed1272f38a8cbbd2dec2e8c56c" }
 mycelium-std-vsa = { git = "https://github.com/tzervas/mycelium-std-vsa", rev = "3936b492b99ba204e9c156822f70041383a37056" }
 mycelium-std-numerics = { git = "https://github.com/tzervas/mycelium-std-numerics", rev = "2676276b1559f0c1c0b1c0c39ad48ba6ff89d639" }
